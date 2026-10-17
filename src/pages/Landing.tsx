@@ -244,10 +244,39 @@ export default function Landing() {
           <p className="mb-2">
             Built with React 18, Vite, Tailwind CSS, KaTeX, and Framer Motion.
           </p>
+          <p className="mb-3 text-slate-400">
+            © 2026{' '}
+            <a
+              href="https://github.com/MAqeel151214"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-slate-300 hover:text-white transition-colors"
+            >
+              Muhammad Aqeel
+            </a>
+            {' · '}
+            <a
+              href="https://github.com/MAqeel151214/LSTM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-200 underline transition-colors"
+            >
+              Open Source under MIT License
+            </a>
+          </p>
           <div className="flex justify-center gap-4 text-slate-400 font-mono text-[11px]">
             <Link to="/explore" className="hover:text-purple-300 transition-colors">Explorer</Link>
             <span>·</span>
             <Link to="/blog" className="hover:text-amber-300 transition-colors">Numerical Blog</Link>
+            <span>·</span>
+            <a
+              href="https://github.com/MAqeel151214/LSTM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-200 transition-colors"
+            >
+              GitHub Repository
+            </a>
           </div>
         </footer>
       </div>

@@ -64,3 +64,12 @@ npm run preview
 ## GitHub Pages Deployment
 
 The included GitHub Actions workflow automatically builds and publishes to GitHub Pages whenever changes land on `main` or `master`. Because the app uses `HashRouter` and a relative Vite base path, routing works immediately without server-side rewrite rules.
+
+---
+
+## Author & License
+
+Created and maintained by **Muhammad Aqeel** ([@MAqeel151214](https://github.com/MAqeel151214)).
+
+This project is open-source and released under the [MIT License](LICENSE).
+

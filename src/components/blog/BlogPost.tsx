@@ -27,12 +27,23 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center gap-4 text-sm text-[#78716c] mb-8">
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-[#78716c] mb-8">
+          <span>By <a href="https://github.com/MAqeel151214" target="_blank" rel="noopener noreferrer" className="font-medium text-[#2563eb] hover:underline">Muhammad Aqeel</a></span>
+          <span>·</span>
           <span>~45 min read</span>
           <span>·</span>
-          <span>Updated 2024</span>
+          <span>Updated 2026</span>
           <span>·</span>
           <span>Interactive</span>
+          <span>·</span>
+          <a
+            href="https://github.com/MAqeel151214/LSTM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 font-medium text-[#44403c] hover:text-[#2563eb] transition-colors"
+          >
+            <span>Open Source (MIT)</span>
+          </a>
         </div>
 
         <LSTMAnimation />
@@ -550,7 +561,26 @@ export default function BlogPost() {
       {/* Footer */}
       <footer className="border-t border-[#e7e5e4] py-8 text-center text-sm text-[#78716c]">
         <p>Built with care. All computations verified by hand.</p>
-        <p className="mt-2">© 2024 · MIT License</p>
+        <p className="mt-2">
+          © 2026{' '}
+          <a
+            href="https://github.com/MAqeel151214"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-[#44403c] hover:text-[#2563eb] transition-colors"
+          >
+            Muhammad Aqeel
+          </a>
+          {' · '}
+          <a
+            href="https://github.com/MAqeel151214/LSTM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#2563eb] underline transition-colors"
+          >
+            Open Source under MIT License
+          </a>
+        </p>
       </footer>
     </div>
   );

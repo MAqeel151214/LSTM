@@ -1,7 +1,13 @@
 {
   "name": "lstm-deep-dive",
-  "private": true,
   "version": "1.0.0",
+  "description": "Interactive visual explainer and exhaustive numerical walkthrough of Long Short-Term Memory networks",
+  "author": "Muhammad Aqeel <aqeelkabirbalti@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAqeel151214/LSTM.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

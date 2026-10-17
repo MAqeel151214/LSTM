@@ -216,6 +216,26 @@ export default function Recap() {
           <p className="text-sm text-slate-500 mb-2">
             Built with React, Tailwind CSS, KaTeX, and a love for clear explanations.
           </p>
+          <p className="text-xs text-slate-400 mb-2">
+            © 2026{' '}
+            <a
+              href="https://github.com/MAqeel151214"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-slate-300 hover:text-white transition-colors"
+            >
+              Muhammad Aqeel
+            </a>
+            {' · '}
+            <a
+              href="https://github.com/MAqeel151214/LSTM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-200 underline transition-colors"
+            >
+              Open Source under MIT License
+            </a>
+          </p>
           <p className="text-xs text-slate-600">
             Inspired by the best science communicators: Olah, StatQuest, 3Blue1Brown, and the deep learning community.
           </p>
